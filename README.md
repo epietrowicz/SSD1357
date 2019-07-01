@@ -1,5 +1,5 @@
 # SSD1357
-Implementation of Sparkfun library for the SSD1357 OLED driver on a Teensy 3.2.
+Implementation of Sparkfun library for the SSD1357 OLED driver IC used with the NewHaven NHD-0.6-6464G OLED display.
 
 Vcc = +12V
 Vdd = +3.3V
