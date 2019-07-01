@@ -37,12 +37,18 @@ void setup() {
     SSD1357FongLarge.Wrapper_to_call_getFrameData,
     SSD1357FongLarge.Wrapper_to_call_advanceState,
     SSD1357FongLarge.Wrapper_to_call_setCursorValues);
-
-  printWithLargeFontInt(48, 48);
-  
 }
 
 void loop() {
+  
+  printWithLargeFontInt(48, 48); //Print 00 in ASCII to the display. 
+  delay(1000);
+  printWithLargeFontInt(48, 49); //Print 01 in ASCII to the display. 
+  delay(1000);
+  printWithLargeFontInt(48, 50); //Print 02 in ASCII to the display. 
+  delay(1000);
+  printWithLargeFontInt(48, 51); //Print 03 in ASCII to the display. 
+  delay(1000);
  
 }
 
